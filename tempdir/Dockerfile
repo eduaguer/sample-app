@@ -1,4 +1,4 @@
-FROM python
+FROM python:3.8
 RUN pip install flask
 COPY ./static /home/myapp/static/
 COPY ./templates /home/myapp/templates/
